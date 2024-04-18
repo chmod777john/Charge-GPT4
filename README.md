@@ -14,9 +14,15 @@
 
 等待创建完毕，你应该能得到一个 vscode 界面
 
+![image](https://github.com/chmod777john/Charge-GPT4/assets/146207719/50e6ca25-d1a5-4872-ba8e-7fc7ff8aa351)
+
+
 从端口转发处，点击 6080 的这个链接。
 
 就会打开一个 noVNC 网页，里面显示了远程桌面和一个火狐浏览器，你可以登录进去用你的虚拟信用卡来支付了。
+
+![image](https://github.com/chmod777john/Charge-GPT4/assets/146207719/6b8d1c17-261a-4eb8-88ab-2e3ff9210dd7)
+
 
 亲测有效。
 
