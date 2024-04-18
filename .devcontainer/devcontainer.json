@@ -11,7 +11,7 @@
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
 			"version": "latest",
 			"noVncVersion": "1.2.0",
-			"password": "password",
+			"password": "",
 			"webPort": "6080",
 			"vncPort": "5901"
 		}
@@ -24,7 +24,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	// "postCreateCommand": "firefox https://chat.openai.com  https://platform.openai.com/settings/organization/billing/overview ",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
