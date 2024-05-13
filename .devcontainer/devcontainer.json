@@ -8,23 +8,6 @@
 	},
 
 	"features": {
-		"ghcr.io/devcontainers/features/desktop-lite:1": {
-			"version": "latest",
-			"noVncVersion": "1.2.0",
-			"password": "123",
-			"webPort": "6080",
-			"vncPort": "5901"
-		}
-	},
-
-	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
-
-	// Use 'forwardPorts' to make a list of ports inside the container available locally.
-	"forwardPorts": [6080],
-
-	// Use 'postCreateCommand' to run commands after the container is created.
-	"postAttachCommand": "firefox https://chat.openai.com  https://platform.openai.com/settings/organization/billing/overview "
 
 	// Configure tool-specific properties.
 	// "customizations": {},
