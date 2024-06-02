@@ -3,9 +3,6 @@
 {
 	"name": "Free-Charge-GPT",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"build": {
-		"dockerfile": "Dockerfile"
-	},
 
 	"features": {
 		"ghcr.io/devcontainers/features/desktop-lite:1": {
@@ -24,7 +21,7 @@
 	"forwardPorts": [6080],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postAttachCommand": "firefox https://chat.openai.com  https://platform.openai.com/settings/organization/billing/overview "
+	"postAttachCommand": "sudo apt update && sudo apt install firefox"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
